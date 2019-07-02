@@ -11,6 +11,7 @@
 		1BEBDDB522CBC9CF00908972 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEBDDB322CBC9CF00908972 /* Main.storyboard */; };
 		1BEBDDB722CBC9D000908972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BEBDDB622CBC9D000908972 /* Assets.xcassets */; };
 		1BEBDDBA22CBC9D000908972 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEBDDB822CBC9D000908972 /* LaunchScreen.storyboard */; };
+		1BEBDDC222CBCD9700908972 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BEBDDC122CBCD9700908972 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		1BEBDDB622CBC9D000908972 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BEBDDB922CBC9D000908972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BEBDDBB22CBC9D000908972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BEBDDC122CBCD9700908972 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				1BEBDDB622CBC9D000908972 /* Assets.xcassets */,
 				1BEBDDB822CBC9D000908972 /* LaunchScreen.storyboard */,
 				1BEBDDBB22CBC9D000908972 /* Info.plist */,
+				1BEBDDC122CBCD9700908972 /* GoogleService-Info.plist */,
 			);
 			path = FirebaseChatHW;
 			sourceTree = "<group>";
@@ -120,6 +123,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BEBDDBA22CBC9D000908972 /* LaunchScreen.storyboard in Resources */,
+				1BEBDDC222CBCD9700908972 /* GoogleService-Info.plist in Resources */,
 				1BEBDDB722CBC9D000908972 /* Assets.xcassets in Resources */,
 				1BEBDDB522CBC9CF00908972 /* Main.storyboard in Resources */,
 			);
