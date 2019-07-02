@@ -42,8 +42,8 @@ struct ChatRoom: Codable, Equatable {
         //properties to g with the messageKit
         let senderID: String
         let messageId: String
-        var sentDate: Date { return timestamp }
-        var kind: MessageKind { return .text(text) }
+        var sentDate: Date { return timestamp } //we are initializing timestamp so we don't have to initialize sentDate
+        var kind: MessageKind { return .text(text) } //we are initializing text so we don't have to initialize kind
         var sender: SenderType { return Sender(senderId: senderID, displayName: displayName) }
         
         init(text: String, sender: Sender, timestamp: Date = Date(), messageId: String = UUID().uuidString){
