@@ -12,6 +12,9 @@
 		1BEBDDB722CBC9D000908972 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BEBDDB622CBC9D000908972 /* Assets.xcassets */; };
 		1BEBDDBA22CBC9D000908972 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BEBDDB822CBC9D000908972 /* LaunchScreen.storyboard */; };
 		1BEBDDC222CBCD9700908972 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1BEBDDC122CBCD9700908972 /* GoogleService-Info.plist */; };
+		1BEBDDC422CBE63800908972 /* ChatRoomsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBDDC322CBE63800908972 /* ChatRoomsTableViewController.swift */; };
+		1BEBDDC622CBE66600908972 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBDDC522CBE66600908972 /* MessageViewController.swift */; };
+		1BEBDDC822CBE6DC00908972 /* ChatRoom.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BEBDDC722CBE6DC00908972 /* ChatRoom.swift */; };
 		B0E2FAB0074E804166B7B284 /* Pods_FirebaseChatHW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE7626F67F97588FE81287AB /* Pods_FirebaseChatHW.framework */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +26,9 @@
 		1BEBDDB922CBC9D000908972 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BEBDDBB22CBC9D000908972 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BEBDDC122CBCD9700908972 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		1BEBDDC322CBE63800908972 /* ChatRoomsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoomsTableViewController.swift; sourceTree = "<group>"; };
+		1BEBDDC522CBE66600908972 /* MessageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
+		1BEBDDC722CBE6DC00908972 /* ChatRoom.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatRoom.swift; sourceTree = "<group>"; };
 		347D7E131A67086D8A3FD8BD /* Pods-FirebaseChatHW.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseChatHW.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseChatHW/Pods-FirebaseChatHW.debug.xcconfig"; sourceTree = "<group>"; };
 		B89A16F42AE5E62DD78B482E /* Pods-FirebaseChatHW.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FirebaseChatHW.release.xcconfig"; path = "Pods/Target Support Files/Pods-FirebaseChatHW/Pods-FirebaseChatHW.release.xcconfig"; sourceTree = "<group>"; };
 		CE7626F67F97588FE81287AB /* Pods_FirebaseChatHW.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FirebaseChatHW.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,12 +69,23 @@
 			children = (
 				1BEBDDAF22CBC9CF00908972 /* AppDelegate.swift */,
 				1BEBDDB322CBC9CF00908972 /* Main.storyboard */,
+				1BEBDDC322CBE63800908972 /* ChatRoomsTableViewController.swift */,
+				1BEBDDC522CBE66600908972 /* MessageViewController.swift */,
+				1BEBDDC922CBE7D100908972 /* Model */,
 				1BEBDDB622CBC9D000908972 /* Assets.xcassets */,
 				1BEBDDB822CBC9D000908972 /* LaunchScreen.storyboard */,
 				1BEBDDBB22CBC9D000908972 /* Info.plist */,
 				1BEBDDC122CBCD9700908972 /* GoogleService-Info.plist */,
 			);
 			path = FirebaseChatHW;
+			sourceTree = "<group>";
+		};
+		1BEBDDC922CBE7D100908972 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				1BEBDDC722CBE6DC00908972 /* ChatRoom.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 		D7521BC5AFF9BFD47D0E862E /* Pods */ = {
@@ -217,6 +234,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BEBDDC422CBE63800908972 /* ChatRoomsTableViewController.swift in Sources */,
+				1BEBDDC622CBE66600908972 /* MessageViewController.swift in Sources */,
+				1BEBDDC822CBE6DC00908972 /* ChatRoom.swift in Sources */,
 				1BEBDDB022CBC9CF00908972 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
